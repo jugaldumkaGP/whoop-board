@@ -1,0 +1,15 @@
+# Secrets: WHOOP client id/secret and OAuth tokens
+.env
+.env.*
+!.env.example
+
+# Personal WHOOP data and local runtime files written by whoop.py
+whoop_data.json
+whoop_live.js
+sync.log
+.whoop.lock
+
+# OS / editor / Python noise
+.DS_Store
+__pycache__/
+*.pyc
